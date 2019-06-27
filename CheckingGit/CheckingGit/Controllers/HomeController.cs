@@ -18,6 +18,9 @@ namespace CheckingGit.Controllers
 
         public ActionResult About()
         {
+            ViewBag.name = "Kranti";
+            ViewBag.age = "26";
+            ViewBag.address = "Hyd";
             ViewBag.Message = "Your application description page.";
 
             return View();
