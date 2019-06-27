@@ -12,6 +12,7 @@ namespace CheckingGit.Controllers
         {
             ViewBag.name = "Kranti";
             ViewBag.age = "26";
+            ViewBag.address = "Hyd";
             return View();
         }
 
