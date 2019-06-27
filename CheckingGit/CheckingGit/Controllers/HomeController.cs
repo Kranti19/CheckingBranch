@@ -11,6 +11,7 @@ namespace CheckingGit.Controllers
         public ActionResult Index()
         {
             ViewBag.name = "Kranti";
+            ViewBag.age = "26";
             return View();
         }
 
